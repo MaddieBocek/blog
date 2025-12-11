@@ -1,0 +1,145 @@
+@font-face { font-family: new_moon; src: url('../font/twilight_new_moon.ttf') }
+
+
+h1{
+    font-family: new_moon, serif;
+    font-size: 50px;
+    color: #FF5EF5;
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+}
+h2{
+    font-family: new_moon, serif;
+    font-size: 40px;
+    color: #FFE054;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+h3{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    color: #FF5EF5;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #FF5EF5;
+}
+a{
+    font-family: new_moon, serif;
+    font-size: 40px;
+    color: #63e9d0;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #FFE054;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color:#110240;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #110240;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #63e9d0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FCA9F8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #110240;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FF5EF5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.column {
+    float: left;
+    width: 48%;
+    padding: 1%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.right {
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+.left {
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
